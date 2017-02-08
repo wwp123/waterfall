@@ -324,7 +324,7 @@ var waterFall = function(id,scrollObj,flag){
 			if(maxTop<$(scrollObj).height()+$(document).scrollTop()){
 				//加载更多数据
 				loading.data("on",false).fadeIn(800);
-				var jsonsrc = 'http://192.168.16.26/waterfall/javascript/' + id + '.json';
+				var jsonsrc = 'https://github.com/wwp123/waterfall/blob/master/javascript/' + id + '.json';
 				$.get(jsonsrc,function(sqlJson){
 					/*这里会根据后台返回的数据来判断是否你进行分页或者数据加载完毕这里假设大于30就不在加载数据*/
 				var length=getJsonLength(sqlJson);
