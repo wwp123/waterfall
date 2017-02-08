@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tempSuite>
+  <tempSuiteName>首页模板</tempSuiteName>
+  <tempSuiteDesc>首页模板</tempSuiteDesc>
+  <tempSuiteVersion>1.0</tempSuiteVersion>
+  <tempSuiteAuthor>apode</tempSuiteAuthor>
+  <template>
+		<tempName><![CDATA[首页]]></tempName>
+		<tempType>index</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[index.html]]></fileName>
+   </template>
+    <template>
+		<tempName><![CDATA[文章页]]></tempName>
+		<tempType>list</tempType>
+		<tempExt><![CDATA[jsp]]></tempExt>
+		<fileName><![CDATA[imgWordDetail.html]]></fileName>
+   </template>
+</tempSuite>
